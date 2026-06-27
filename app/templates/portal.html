@@ -47,6 +47,45 @@
         
         <!-- Main Content -->
         <div class="col-lg-9">
+            <!-- Mobile Navigation (Visible only on small screens) -->
+            <div class="d-lg-none mb-4">
+                <label for="mobile-portal-nav" class="form-label fw-bold text-primary small">Select Document Section</label>
+                <select class="form-select border-primary shadow-sm" id="mobile-portal-nav" onchange="showDoc(this.value, null)">
+                    <optgroup label="1. Brainstorming & Ideation">
+                        <option value="brainstorming">Brainstorming Notes</option>
+                        <option value="problem">Problem Statement</option>
+                    </optgroup>
+                    <optgroup label="2. Requirement Analysis">
+                        <option value="data-dict">Data Dictionary</option>
+                        <option value="req-spec">Requirements Specification</option>
+                        <option value="eda-gallery">Exploratory Data Analysis</option>
+                    </optgroup>
+                    <optgroup label="3. Project Design Phase">
+                        <option value="pipeline">Pipeline Design & Math</option>
+                        <option value="architecture">System Architecture</option>
+                    </optgroup>
+                    <optgroup label="4. Project Planning Phase">
+                        <option value="schedule">Project Schedule</option>
+                        <option value="risk">Risk Mitigation</option>
+                    </optgroup>
+                    <optgroup label="5. Project Development Phase">
+                        <option value="dev-notes">Development Notes</option>
+                        <option value="model-sel">Model Selection & Ablation</option>
+                    </optgroup>
+                    <optgroup label="6. Project Testing">
+                        <option value="code-test">Code Testing</option>
+                        <option value="eval">Model Evaluation</option>
+                    </optgroup>
+                    <optgroup label="7. Project Documentation">
+                        <option value="deploy">Deployment & API Guide</option>
+                        <option value="user-guide">User Guide & Future Scope</option>
+                    </optgroup>
+                    <optgroup label="8. Project Demonstration">
+                        <option value="demo">Demo Walkthrough</option>
+                    </optgroup>
+                </select>
+            </div>
+
             <div class="bento-card bg-white position-relative" style="min-height: 80vh;">
                 
                 <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
