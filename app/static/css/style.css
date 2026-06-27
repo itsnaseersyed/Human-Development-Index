@@ -60,6 +60,47 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     }
 }
 
+/* Premium Mesh Glassmorphism Hero */
+.hero-mesh-bg {
+    background: linear-gradient(-45deg, #1a73e8, #4285f4, #34a853, #0dcaf0);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    border-radius: 2rem;
+    padding: 5rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hero-glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1.5rem;
+    padding: 4rem 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .hero-mesh-bg {
+        padding: 3rem 1rem;
+        border-radius: 1.5rem;
+    }
+    .hero-glass-card {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
 .navbar-brand {
     color: var(--text-primary) !important;
     font-size: 1.25rem;
