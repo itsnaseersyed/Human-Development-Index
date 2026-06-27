@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Treat pkl files as binary
+*.pkl binary
+
+# Treat csv and excel files as binary/data
+*.csv linguist-language=Data
+*.xlsx binary

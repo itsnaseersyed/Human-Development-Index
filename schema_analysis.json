@@ -1,0 +1,68 @@
+{
+    "kaggle_shape": [
+        6798,
+        33
+    ],
+    "undp_shape": [
+        278,
+        15
+    ],
+    "kaggle_columns": [
+        "Unnamed: 0",
+        "iso3",
+        "country",
+        "hdicode",
+        "hdi_rank_2022",
+        "gii_rank_2022",
+        "year",
+        "hdi",
+        "life_expectancy",
+        "pop_millions",
+        "hdi_f",
+        "hdi_m",
+        "life_expec_f",
+        "life_expec_m",
+        "expec_yr_school",
+        "expec_yr_school_f",
+        "expec_yr_school_m",
+        "mean_yr_school",
+        "mean_yr_school_f",
+        "mean_yr_school_m",
+        "gross_inc_percap",
+        "gross_inc_percap_f",
+        "gross_inc_percap_m",
+        "gender_development",
+        "gender_inequality",
+        "secondary_education_f_%",
+        "secondary_education_m_%",
+        "seats_in_parliament_f_%",
+        "seats_in_parliament_m_%",
+        "labour_participation_f_%",
+        "labour_participation_m_%",
+        "co2_emission_tons",
+        "mat_footprint_percap_tons"
+    ],
+    "undp_columns": [
+        "Unnamed: 0",
+        "Table 1. Human Development Index and its components",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14"
+    ],
+    "common_columns_count": 1,
+    "common_columns": [
+        "Unnamed: 0"
+    ],
+    "missing_in_undp_count": 32,
+    "missing_in_kaggle_count": 14
+}
